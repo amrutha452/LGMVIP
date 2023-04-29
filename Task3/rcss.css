@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: aquamarine;
+}
+div{
+    background-color: rgb(196, 216, 64);
+    width:400px;
+    height:300px;
+}
+form input{
+    height:20px;
+    flex:1;
+}
+form .submit{
+    height:35px;
+    width:60px;
+    background-color: rgb(232, 85, 85);
+    color: rgb(219, 225, 44);
+}
+form .reset{
+    height:35px;
+    width:60px;
+    background-color: rgb(232, 85, 85);
+}

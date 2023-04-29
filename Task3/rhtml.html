@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rcss.css">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>STUDENTS REGISTRATION FORM</h1><br>
+    <div >
+        <br><br>
+        <form class="main" onsubmit="Add()">Name: <input type="text" name="name" id="name" placeholder="Enter your name.."><br><br>
+        college Name:<input type="text" name="clg" id="clg" placeholder="Enter your clg name.."><br><br>
+        Email:<input type="email" name="email" id="email" placeholder="Enter your email.."><br><br>
+        Phone no:<input type="text" name="phn" id="phn" placeholder="Enter your number.."><br><br>
+        Qualification:<input type="text" name="qual" id="qual" placeholder="Enter your Qualification.."><br><br>
+        <input type="submit" class="submit" value="Submit">
+        <input type="reset" class="reset" value="Reset">
+    </form>
+    </div>
+    <br><br><br>
+
+    <table border="1"class="items" id="storeitems" >
+        <thead>
+            <tr>
+                <th>Student Name &nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>College Name&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>Email&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>Phone no&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>Qualification</th>
+                <th>UPADTE</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <!-- <tr>
+            <td ><button onclick="edit(this)">Edit</button>
+            <button onclick="delete(this)">Delete</button></td>
+            </tr> -->
+        </tbody>
+    </table>
+</center>
+<script src="rjs.js"></script>
+</body>
+</html>
