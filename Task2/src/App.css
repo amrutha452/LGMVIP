@@ -1,0 +1,92 @@
+.home
+{
+display:flex;
+}
+.home h1{
+  margin-left: 200px;
+  margin-top: 180px;
+  font-weight: bolder;
+  color: rgb(78, 123, 139);
+  text-shadow: 4px 2px rgb(110, 124, 179);
+  font-size: 50px;
+}
+nav {
+  height: 18vh;
+  width: 100%;
+
+background-image: linear-gradient(rgb(131, 100, 108),rgb(192, 255, 227),rgb(110, 124, 179));
+
+}
+
+#main {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+ 
+
+}
+.navdata {
+  margin-left: 80px;
+
+  display: flex;
+  color:rgb(14, 15, 15);
+font-size: 29px;
+  font-style:inherit;
+  justify-content: space-between;
+}
+
+
+
+.navdata button {
+  width: 15%;
+  height: 59px;
+
+  border-radius: 50px;
+  background-color: #d0588a;
+background:transparent;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 34px 212px;
+}
+
+.btn:hover {
+
+  background-color: rgb(143, 187, 217);
+  cursor: pointer;
+   font-weight: bold;
+  color: rgb(11, 16, 21);
+
+}
+
+.name:hover {
+  cursor: pointer;
+  color:rgb(230, 47, 41);
+}
+
+
+
+.profile {
+  border-radius: 10%;
+
+  background-image: linear-gradient(rgb(228, 139, 161),rgb(79, 168, 128),rgb(110, 122, 173));
+
+  margin: 20px;
+  padding: 20px;
+  width: 25%;
+  height: 40vh;
+  text-align: center;
+  transition: transform ease 0.3s;
+  opacity: 0.9;
+  margin-top: 10vh;
+}
+
+.profile:hover {
+  transform: scale(1.15);
+  opacity: 1;
+  cursor: pointer;
+  
+}
+
+
+
